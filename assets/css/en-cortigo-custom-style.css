@@ -1,0 +1,647 @@
+#wpfooter {
+    position: static;
+    margin-left: 0px !important;
+}
+#footer-left{
+    margin-left: 160px !important
+}
+.cort_carrier_section_class table .carrier_carrier{
+    width: 70%;
+    font-size: 18px;
+    color: #0073aa;
+    text-align: left;
+    font-weight: normal;
+    padding-left: 10px;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 20px 10px 20px;
+}
+.cort_carrier_section_class table .carrier_logo{
+    width: 10%;
+    text-align: center;
+    font-size: 18px;
+    color: #0073aa;
+    font-weight: normal;
+    border-bottom: 1px solid #e1e1e1;
+}
+.cort_carrier_section_class table .carrier_include{
+    width: 15%;;
+    padding-left: 10px; 
+    text-align: center;
+    padding-right: 10px !important;
+    border-bottom: 1px solid #e1e1e1;
+}
+.cort_carrier_section_class{
+    margin: 10px 0 0 2px;
+}
+
+.even_odd_class{
+    background-color: #fff !important;
+}
+
+.cort_carrier_section_class table .carrier_Name_td{
+    text-align: left;
+    padding-left: 10px !important;
+}
+
+.cort_carrier_section_class table td {
+    text-align: center; 
+}
+.cort_carrier_section_class .form-table tr .titledesc{
+    width: 800px;    
+    padding: 6px;
+}
+.cort_carrier_section_class table {
+    border-spacing: 0;
+}
+.cort_carrier_section_class .form-table td {
+    width: 200px;
+    padding: 0px;
+}
+.cort_ltl_connection_section_class a{
+    text-decoration: unset;
+}
+.cort_ltl_connection_section_class .form-table tr .titledesc{
+    width: 300px;    
+}
+
+.cort_ltl_connection_section_class .button-primary{
+    width: 187px !important;
+    height: 37px;
+    margin-left: 24px;
+}
+.ltl_setting_section .button-primary, .user_guide p.submit{
+    display: none;
+}
+.cort_ltl_connection_section_class .connection_save_button{
+    margin-left: 15px;
+    width: 190px !important;
+    height: 40px;
+    background: #298cba none repeat scroll 0 0 !important;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.cort_ltl_connection_section_class input {
+    width: 350px;
+}
+.cort_ltl_connection_section_class label {
+    cursor: default;
+}
+
+.class_success_message{
+    margin             : 5px 0 15px !important;
+    border-left-color  : #46b450 !important;
+    background         : #fff;
+    border-left        : 4px solid #fff;
+    -webkit-box-shadow : 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow         : 0 1px 1px 0 rgba(0,0,0,.1);
+    padding            : 9.5px 12px;
+}
+.class_error_message{
+    margin             : 5px 0 15px !important;
+    border-left-color  : #dc3232 !important;
+    background         : #fff;
+    border-left        : 4px solid #fff;
+    -webkit-box-shadow : 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow         : 0 1px 1px 0 rgba(0,0,0,.1);
+    padding            : 9.5px 12px;
+}
+
+/*warehouse portion
+.ltl_add_warehouse_btn{
+    background: #0085ba none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    color: #fff;
+    padding: 10px 35px;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+}
+.ltl_add_warehouse_btn:hover{
+    background: #008ec2;
+    color: #fff;
+    border-color: #006799;
+}
+
+warehouse table 
+.ltl_warehouse_list {
+    font-family: 'Arial';
+    margin: 10px auto 40px;
+    border-collapse: collapse;
+    border: 1px solid #eee;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0px 1px 1px 0px #666;
+}
+.ltl_warehouse_list  .ltl_warehouse_list_heading, .ltl_warehouse_list_data {
+    color: #555;
+    padding: 12px 35px;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.ltl_warehouse_list  .ltl_warehouse_list_heading {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid rgb(169, 169, 169);
+    color: #0073aa;
+    font-size: 16px;
+    font-weight: 700;
+}
+#append_warehouse tbody > tr:nth-of-type(2n-1){
+    background: #f1f1f1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.ltl_warehouse_list_data a img{
+    margin-left: 5px;
+    width: 17px;
+}
+
+add warehouse popup style Start
+.ltl_warehouse_overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 2ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 9999;
+}
+.ltl_warehouse_overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.ltl_add_warehouse_popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 1px;
+    width: 40%;
+    position: relative;
+    transition: all 2s ease-in-out;
+}
+
+.ltl_add_warehouse_popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+}
+.ltl_add_warehouse_popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 2ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.ltl_add_warehouse_popup .close:hover {
+    color: #ea6153;
+}
+.ltl_add_warehouse_popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+.ltl_add_warehouse_popup .content label {
+    cursor: default;
+}
+
+.ltl_add_warehouse_popup .content label{
+    font-weight: 900;
+    display: inline-block;
+}
+.ltl_add_warehouse_popup .content .ltl_add_warehouse_input{
+    width: 80%;
+    text-align: right;
+}
+.ltl_add_warehouse_popup .content .ltl_add_warehouse_input input{
+    border-radius: 1px;
+    margin: 10px;
+    width: 70%;
+    height: 38px;
+}
+.save_warehouse_form {
+    background: #0085ba none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    float: right;
+    margin-right: 113px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 35px;
+    border-radius: 2px;
+    
+    background: #0085ba none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    float: right;
+    margin: 1% 22%;
+    text-decoration: none;
+    width: 15% !important;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px; 
+    background-image: -webkit-linear-gradient(top, #0085ba, #2980b9);
+    background-image: -moz-linear-gradient(top, #0085ba, #2980b9);
+    background-image: -ms-linear-gradient(top, #0085ba, #2980b9);
+    background-image: -o-linear-gradient(top, #0085ba, #2980b9);
+    background-image: linear-gradient(to bottom, #0085ba, #2980b9);
+}
+#mainform input[type=text], .cort_quote_section_class_ltl input[type=text], .cort_quote_section_class_ltl select, .ltl_add_warehouse_input select{
+    width: 400px;
+    margin-right: 10px !important;
+    padding: 0px 6px;
+    box-sizing: border-box;
+    height: 43px;
+    border-radius: 0;
+}
+.cort_quote_section_class_ltl input[type=checkbox]{
+    margin-right: 10px !important;
+}
+.cort_quote_section_class_ltl{
+    padding: 15px 0 0 !important;
+}
+.save_warehouse_form:hover{
+    background: #008ec2;
+    border-color: #006799;
+    color: #fff;
+}
+.save_warehouse_form:focus + div#ltl_add_warehouse_btn {
+    display: none;
+}
+.already_exist{
+    background: #f1f1f1 none repeat scroll 0 0;
+    border-left: 4px solid #dc3232;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 5px 15px 2px;
+    padding: 10px 12px;
+    display: none;
+}
+.warehouse_created{
+    margin-top: 20px !important;
+    display: none;
+}
+.warehouse_updated{
+    margin-top: 20px !important;
+    display: none;
+}
+.warehouse_deleted{
+    margin-top: 20px !important;
+    display: none;
+}
+.city_select_css{
+    width: 70%;
+    border-radius: 5px;
+    margin: 10px;
+}
+.city_select{
+    display: none;
+}
+
+.ltl_zip_validation_err, .ltl_city_validation_err, .ltl_state_validation_err, .ltl_country_validation_err {
+    color: #ff0000;
+    font-size: 11px;
+    font-weight: normal !important;
+    margin-top: 15px;
+    position: absolute;
+}
+.not_allowed{
+    background: #f1f1f1 none repeat scroll 0 0;
+    border-left: 4px solid #dc3232;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    padding: 1px 12px;
+    display: none;
+}
+.wrng_credential{
+    background: #f1f1f1 none repeat scroll 0 0;
+    border-left: 4px solid #dc3232;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    padding: 1px 12px;
+    display: none;
+}
+add warehouse popup style End
+
+Dropship Section
+dropship table 
+.ltl_dropship_list {
+    font-family: 'Arial';
+    margin: 25px auto;
+    border-collapse: collapse;
+    border: 1px solid #eee;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0px 1px 1px 0px #666;
+}
+.ltl_dropship_list  .ltl_dropship_list_heading, .ltl_dropship_list_data {
+    color: #555;
+    padding: 12px 35px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.ltl_dropship_list  .ltl_dropship_list_heading {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #e1e1e1;
+    color: #0073aa;
+    font-size: 14px;
+    font-weight: 700;
+}
+#append_dropship tbody > tr:nth-of-type(2n-1) {
+    background: #f1f1f1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+#append_dropship tbody > tr:nth-of-type(2n-1){
+    background: #f1f1f1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.ltl_dropship_list_data a img{
+    margin-left: 5px;
+    width: 17px;
+}
+
+.ltl_add_dropship_btn{
+    background: #0085ba none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    color: #fff;
+    padding: 10px 35px;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+}
+.ltl_add_dropship_btn:hover{
+    background: #008ec2;
+    color: #fff;
+    border-color: #006799;
+}
+.dropship_created{
+    display: none;
+}
+.dropship_updated{
+    display: none;
+}
+.dropship_deleted{
+    display: none;
+}
+
+.warehouse_text p{
+    font-size: 13px;
+}
+.break_hr{
+    margin: 50px 0;
+}
+.err{
+    color: #ff0000;
+    font-size: 13px;
+    font-weight: normal !important;
+    padding-left: 10px;
+}
+.delete_p{
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 25px 3px;
+}
+.del_btns{
+    margin-right: 40px;
+    text-align: right;
+    margin-top: 20px;
+}
+.cancel_delete{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.cancel_delete:hover{
+    text-decoration: none;
+}
+.confirm_delete{
+    background: #008ec2;
+    border-color: #006799;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.confirm_delete:hover{
+    text-decoration: none;
+    color: #fff;
+}*/
+.user_guide {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    transition: all 2s ease-in-out;
+    box-shadow: 2px 2px 6px 0px #666;
+}
+.user_guide p{
+    font-size: 14px;
+}
+a:focus{
+    box-shadow: none !important;
+}
+.p_ds_location{
+    width: 50% !important;
+}
+ /*warehouse portion ends*/
+
+label[for=wc_settings_cortigo_delivery_estimate]{
+    font-size: 13px;
+    font-style: italic;
+}
+
+label[for=wc_settings_cortigo_allow_for_own_arrangment]{
+    font-size: 13px;
+    font-style: italic;
+}
+label[for="wc_settings_cortigo_shipper_id"]:after, label[for="wc_settings_cortigo_username"]:after, label[for="wc_settings_cortigo_password"]:after, label[for="wc_settings_cortigo_authentication_key"]:after, label[for="wc_settings_cortigo_licence_key"]:after{
+    content: " *";
+    color: red;
+}
+label[for="ltl_origin_zip"]:after, label[for="ltl_origin_city"]:after, label[for="ltl_origin_state"]:after, label[for="ltl_origin_country"]:after {
+    content: " *";
+    color: red;
+}
+
+.handeling_fee_err{
+    color: #d54e21;
+    font-size: 13px;
+    display: block;
+}
+.cort_ltl_test_connection{
+    font-size: 15px !important;
+    width: 167px !important;
+    text-align: center;
+}
+.cort_ltl_test_connection:hover{
+    background: #008ec2;
+    color: #fff;
+    border-color: #006799;
+}
+.cort_quote_section_class_ltl .description{
+    font-style: normal !important;
+}
+.cort_quote_section_class_ltl input[type="text"] {
+    width: 250px;
+    border-radius: 4px;
+}
+.cort_quote_section_class_ltl input[type="checkbox"], .carrier_check, .include_all{
+    cursor: default;
+    height: 20px !important;
+    width: 20px !important;
+}
+.cort_quote_section_class_ltl input[type="checkbox"]:checked::before{
+    padding-top: 2px;
+    width: 24px;
+}
+.carrier_check:checked::before, .include_all:checked::before {
+    padding-top: 2px;
+    width: 25px !important;
+}
+.cort_quote_section_class_ltl .form-table tr .titledesc{
+    width: 300px;    
+}
+.cort_quote_section_class_ltl label{
+    cursor: default;
+}
+.cort_quote_section_class_ltl .button-primary{ 
+    width: 120px !important;
+    margin-left: 336px;
+    height: 36px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.cort_carrier_section_class .button-primary{  
+    width: 120px !important;
+    height: 36px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.cort_ltl_test_connection {
+    font-size: 13px !important;
+    text-align: center;
+    width: 167px !important;
+}
+.cort_ltl_test_connection:hover{
+    background: #008ec2;
+    color: #fff;
+    border-color: #006799;
+}
+.cort_ltl_connection_section_class p.submit{
+    text-align: left;
+    width: calc(100% - 310px);
+    float: right;
+}
+.cort_ltl_connection_section_class p.submit > * {
+    line-height: 2.9 !important;
+}
+
+.woocommerce_variable_attributes div.data select{
+    width: 100% !important;
+}
+.woocommerce_variable_attributes div.data .checkbox{
+    margin-left: 0px !important;
+    margin-right: 10px !important;
+}
+
+.form-row select{
+    height: 35px !important;
+}
+.button-primary {
+    text-transform: capitalize !important;
+}
+.warning-msg-ltl
+{
+    margin             : 5px 0 15px !important;
+    border-left-color  : #ffb900 !important;
+    background         : #fff;
+    border-left        : 4px solid #fff;
+    -webkit-box-shadow : 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow         : 0 1px 1px 0 rgba(0,0,0,.1);
+    padding            : 3px 12px;
+}
+
+.warning-msg-ltl p, .test_conn_msg p, .test_err_msg p, .wrng_credential p, .not_allowed p{
+    margin : .5em 0;
+}
+
+.table-bordered, .table-bordered th{
+    border: 1px solid #eceeef;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+    background-color: transparent;
+    box-shadow: 2px 2px 6px 0px #666;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #eceeef;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #eceeef;
+    font-size: 18px;
+    padding: 25px 0;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-end{
+    text-align: end;
+}
+.text-justify{
+    text-align: justify;
+}
+#wpfooter{    position: static;    margin-left: 0px !important;}
+#footer-thankyou{    margin-left: 160px !important}
+
+/* font size quote setting page */
+.en_woo_addons_liftgate_with_auto_residential_style th,
+.wc_settings_cortigo_residential_delivery th,
+.avaibility_lift_gate th,
+.wc_settings_cortigo_lift_gate_delivery th,
+.cortigo_freights_liftgate_delivery_as_option th,
+.avaibility_auto_residential th{
+    padding: 0px 0 10px 15px;
+    margin-left: 10px !important;
+    font-weight: 400;
+}
+.en_woo_addons_liftgate_with_auto_residential_style td,
+.wc_settings_cortigo_residential_delivery td,
+.avaibility_lift_gate td,
+.wc_settings_cortigo_lift_gate_delivery td,
+.cortigo_freights_liftgate_delivery_as_option td,
+.avaibility_auto_residential td{
+    padding: 0px 0 10px 15px;
+}
